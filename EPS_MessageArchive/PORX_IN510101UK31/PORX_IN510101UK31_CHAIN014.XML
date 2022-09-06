@@ -1,0 +1,63 @@
+      <ETPWithdraw classCode="ALRT" moodCode="EVN">
+        <id root="2ED97439-1078-E46F-E040-007F01001C14" />
+        <effectiveTime value="20111024165714" />
+        <recordTarget typeCode="RCT">
+          <patient classCode="PAT">
+            <id root="2.16.840.1.113883.2.1.4.1" extension="9401436096" />
+          </patient>
+        </recordTarget>
+        <author typeCode="AUT">
+          <AgentPersonSDS classCode="AGNT">
+            <id root="1.2.826.0.1285.0.2.0.67" extension="100243444980" />
+            <agentPersonSDS classCode="PSN" determinerCode="INSTANCE">
+              <id root="1.2.826.0.1285.0.2.0.65" extension="996610000000" />
+            </agentPersonSDS>
+          </AgentPersonSDS>
+        </author>
+        <pertinentInformation3 typeCode="PERT" contextConductionInd="false">
+          <seperatableInd value="false" />
+          <pertinentWithdrawID classCode="OBS" moodCode="EVN">
+            <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="WID" />
+            <value root="9361DA95-1FD3-E8D4-E050-D20AE3A22B740" />
+          </pertinentWithdrawID>
+        </pertinentInformation3>
+        <pertinentInformation1 typeCode="PERT" contextConductionInd="true">
+          <seperatableInd value="false" />
+          <pertinentRepeatInstanceInfo classCode="OBS" moodCode="EVN">
+            <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="RPI" />
+            <value value="1" />
+          </pertinentRepeatInstanceInfo>
+        </pertinentInformation1>
+        <pertinentInformation2 typeCode="PERT" contextConductionInd="true">
+          <seperatableInd value="false" />
+          <pertinentWithdrawType classCode="OBS" moodCode="EVN">
+            <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="PWT" />
+            <value codeSystem="2.16.840.1.113883.2.1.3.2.4.17.109" code="LD" />
+          </pertinentWithdrawType>
+        </pertinentInformation2>
+        <pertinentInformation5 typeCode="PERT" contextConductionInd="true">
+          <seperatableInd value="false" />
+          <pertinentWithdrawReason classCode="OBS" moodCode="EVN">
+            <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="PWR" />
+            <value codeSystem="2.16.840.1.113883.2.1.3.2.4.17.110" code="PA" />
+          </pertinentWithdrawReason>
+        </pertinentInformation5>
+        <pertinentInformation4 typeCode="PERT" inversionInd="false" negationInd="false">
+          <seperatableInd value="true" />
+          <pertinentDispenseNotificationRef classCode="INFO" moodCode="EVN">
+            <id root="2ED97439-1078-E46F-E040-007F01001C14" />
+          </pertinentDispenseNotificationRef>
+        </pertinentInformation4>
+        <pertinentInformation4 typeCode="PERT" inversionInd="false" negationInd="false">
+          <seperatableInd value="true" />
+          <pertinentDispenseNotificationRef classCode="INFO" moodCode="EVN">
+            <id root="1DE71D0B-86B1-11DB-84BA-2B9204F7A7C9" />
+          </pertinentDispenseNotificationRef>
+        </pertinentInformation4>
+        <pertinentInformation4 typeCode="PERT" inversionInd="false" negationInd="false">
+          <seperatableInd value="true" />
+          <pertinentDispenseNotificationRef classCode="INFO" moodCode="EVN">
+            <id root="1DE71D0B-86B1-11DB-84BA-2B9204F7A7C9" />
+          </pertinentDispenseNotificationRef>
+        </pertinentInformation4>
+      </ETPWithdraw>

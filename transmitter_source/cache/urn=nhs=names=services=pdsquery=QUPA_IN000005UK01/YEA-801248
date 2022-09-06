@@ -1,0 +1,20 @@
+{
+    "AckRequested": "never",
+    "Asid": [
+        "SIAB-001"
+    ],
+    "CPAid": "S2001883A2010174",
+    "DuplicateElimination": "",
+    "InteractionId": "QUPA_IN000005UK01",
+    "IsSynchronous": true,
+    "Org": "YEA",
+    "PartyKey": "YEA-801248",
+    "PersistDuration": -1,
+    "Retries": -1,
+    "RetryInterval": -1,
+    "Service": "urn:nhs:names:services:pdsquery",
+    "SoapActor": "",
+    "SvcIA": "urn:nhs:names:services:pdsquery:QUPA_IN000005UK01",
+    "SyncReply": "none",
+    "Url": "http://127.0.0.1:4001//syncservice-pds/pds"
+}

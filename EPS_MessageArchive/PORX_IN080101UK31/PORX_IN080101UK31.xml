@@ -1,0 +1,162 @@
+			<DispenseNotification classCode="INFO" moodCode="EVN">
+				<id root="86F83C57-1B0E-4058-B092-61E36E130DA7"/>
+				<code code="163541000000107" codeSystem="2.16.840.1.113883.2.1.3.2.4.15"/>
+				<effectiveTime value="20120426124457"/>
+				<typeId extension="PORX_MT024001UK31" root="2.16.840.1.113883.2.1.3.2.4.18.7"/>
+				<recordTarget typeCode="RCT">
+					<patient classCode="PAT">
+						<id extension="9401443157" root="2.16.840.1.113883.2.1.4.1"/>
+					</patient>
+				</recordTarget>
+				<primaryInformationRecipient contextControlCode="ON" typeCode="PRCP">
+					<AgentOrg classCode="AGNT">
+						<agentOrganization classCode="ORG" determinerCode="INSTANCE">
+							<id extension="T1450" root="1.2.826.0.1285.0.1.10"/>
+							<name>NHS BUSINESS SERVICES AUTHORITY</name>
+						</agentOrganization>
+					</AgentOrg>
+				</primaryInformationRecipient>
+            <pertinentInformation1 typeCode="PERT" contextConductionInd="true">
+               <templateId root="2.16.840.1.113883.2.1.3.2.4.18.2" extension="CSAB_RM-NPfITUK10.pertinentInformation"/>
+               <pertinentSupplyHeader classCode="SBADM" moodCode="EVN">
+                  <id root="AAD6C1B0-88C1-11DE-9180-5D6D2A55D783"/>
+                  <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="225426007"/>
+                  <effectiveTime nullFlavor="NA"/>
+                  <author typeCode="AUT" contextControlCode="OP">
+                     <time value="20090921092420"/>
+                     <signatureText nullFlavor="NA"/>
+                     <AgentPerson classCode="AGNT">
+                        <id root="1.2.826.0.1285.0.2.0.67" extension="100243444980"/>
+                        <code codeSystem="1.2.826.0.1285.0.2.1.104" code="R1290"/>
+                        <telecom use="WP" value="tel:01208812760"/>
+                        <agentPerson classCode="PSN" determinerCode="INSTANCE">
+                           <id root="1.2.826.0.1285.0.2.0.65" extension="687227875014"/>
+                           <name use="L">WELSH</name>
+                        </agentPerson>
+                        <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                           <id root="1.2.826.0.1285.0.1.10" extension="FH878"/>
+                           <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.94" code="003"/>
+                           <name>BOOTS THE CHEMISTS LTD</name>
+                           <telecom use="WP" value="tel:01208812760"/>
+                           <addr use="WP">
+                              <streetAddressLine>REGENCY ARCADE</streetAddressLine>
+                              <streetAddressLine>23 MOLESWORTH STREET</streetAddressLine>
+                              <streetAddressLine>WADEBRIDGE</streetAddressLine>
+                              <streetAddressLine>CORNWALL</streetAddressLine>
+                              <postalCode>PL27 7DH</postalCode>
+                           </addr>
+                        </representedOrganization>
+                     </AgentPerson>
+                  </author>
+                  <pertinentInformation1 typeCode="PERT" inversionInd="false" contextConductionInd="true" negationInd="false">
+                     <seperatableInd value="true"/>
+                     <templateId root="2.16.840.1.113883.2.1.3.2.4.18.2" extension="CSAB_RM-NPfITUK10.sourceOf2"/>
+                     <pertinentSuppliedLineItem classCode="SBADM" moodCode="PRMS">
+                        <id root="AAD6C1D0-88C1-11DE-9180-5D6D2A55D783"/>
+                        <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="225426007"/>
+                        <effectiveTime nullFlavor="NA"/>
+                        <consumable typeCode="CSM" contextControlCode="OP">
+                           <requestedManufacturedProduct classCode="MANU">
+                              <manufacturedRequestedMaterial classCode="MMAT" determinerCode="KIND">
+                                 <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="321246009" displayName="Bromazepam 3mg tablets"/>
+                              </manufacturedRequestedMaterial>
+                           </requestedManufacturedProduct>
+                        </consumable>
+                        <component typeCode="COMP">
+                           <seperatableInd value="false"/>
+                           <suppliedLineItemQuantity classCode="SPLY" moodCode="EVN">
+                              <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="373784005"/>
+                              <quantity value="16" unit="1">
+                                 <translation value="16" codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="428673006" displayName="tablet"/>
+                              </quantity>
+                              <product typeCode="PRD" contextControlCode="OP">
+                                 <suppliedManufacturedProduct classCode="MANU">
+                                    <manufacturedSuppliedMaterial classCode="MMAT" determinerCode="KIND">
+                                       <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="321246009" displayName="Bromazepam 3mg tablets"/>
+                                    </manufacturedSuppliedMaterial>
+                                 </suppliedManufacturedProduct>
+                              </product>
+                              <pertinentInformation1 typeCode="PERT" contextConductionInd="true">
+                                 <seperatableInd value="false"/>
+                                 <pertinentSupplyInstructions classCode="OBS" moodCode="EVN">
+                                    <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="SI"/>
+                                    <value>As Directed</value>
+                                 </pertinentSupplyInstructions>
+                              </pertinentInformation1>
+                           </suppliedLineItemQuantity>
+                        </component>
+                        <component1 typeCode="COMP">
+                           <seperatableInd value="false"/>
+                           <supplyRequest classCode="SPLY" moodCode="RQO">
+                              <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="373784005"/>
+                              <quantity value="16" unit="1">
+                                 <translation value="16" codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="428673006" displayName="tablet"/>
+                              </quantity>
+                           </supplyRequest>
+                        </component1>
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                           <seperatableInd value="false"/>
+                           <pertinentItemStatus classCode="OBS" moodCode="EVN">
+                              <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="IS"/>
+                              <value codeSystem="2.16.840.1.113883.2.1.3.2.4.17.23" code="0001"/>
+                           </pertinentItemStatus>
+                        </pertinentInformation3>
+                        <inFulfillmentOf typeCode="FLFS" inversionInd="false" negationInd="false">
+                           <seperatableInd value="true"/>
+                           <templateId root="2.16.840.1.113883.2.1.3.2.4.18.2" extension="CSAB_RM-NPfITUK10.sourceOf1"/>
+                           <priorOriginalItemRef classCode="SBADM" moodCode="RQO">
+                              <id root="AAD6C17B-88C1-11DE-9180-5D6D2A55D783"/>
+                           </priorOriginalItemRef>
+                        </inFulfillmentOf>
+                     </pertinentSuppliedLineItem>
+                  </pertinentInformation1>
+                  <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                     <seperatableInd value="false"/>
+                     <pertinentPrescriptionStatus classCode="OBS" moodCode="EVN">
+                        <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="PS"/>
+                        <value codeSystem="2.16.840.1.113883.2.1.3.2.4.16.35" code="0006"/>
+                     </pertinentPrescriptionStatus>
+                  </pertinentInformation3>
+                  <pertinentInformation4 typeCode="PERT" contextConductionInd="true">
+                     <seperatableInd value="false"/>
+                     <pertinentPrescriptionID classCode="OBS" moodCode="EVN">
+                        <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="PID"/>
+                        <value root="2.16.840.1.113883.2.1.3.2.4.18.8" extension="6C43FF-A82003-0FD2CQ"/>
+                     </pertinentPrescriptionID>
+                  </pertinentInformation4>
+                  <inFulfillmentOf typeCode="FLFS" inversionInd="false" negationInd="false">
+                     <seperatableInd value="true"/>
+                     <templateId root="2.16.840.1.113883.2.1.3.2.4.18.2" extension="CSAB_RM-NPfITUK10.sourceOf1"/>
+                     <priorOriginalPrescriptionRef classCode="SBADM" moodCode="RQO">
+                        <id root="AAD6C177-88C1-11DE-9180-5D6D2A55D783"/>
+                     </priorOriginalPrescriptionRef>
+                  </inFulfillmentOf>
+               </pertinentSupplyHeader>
+            </pertinentInformation1>
+				<pertinentInformation2 typeCode="PERT">
+					<templateId extension="CSAB_RM-NPfITUK10.pertinentInformation1" root="2.16.840.1.113883.2.1.3.2.4.18.2"/>
+					<pertinentCareRecordElementCategory classCode="CATEGORY" moodCode="EVN">
+						<code code="185361000000102" codeSystem="2.16.840.1.113883.2.1.3.2.4.15"/>
+						<component typeCode="COMP">
+							<actRef classCode="SBADM" moodCode="PRMS">
+								<id root="5CD4D936-9193-4078-8110-68B846718023"/>
+							</actRef>
+						</component>
+						<component typeCode="COMP">
+							<actRef classCode="SBADM" moodCode="PRMS">
+								<id root="5CD4D936-9193-4078-8110-68B846718023"/>
+							</actRef>
+						</component>
+						<component typeCode="COMP">
+							<actRef classCode="SBADM" moodCode="PRMS">
+								<id root="5CD4D936-9193-4078-8110-68B846718023"/>
+							</actRef>
+						</component>
+					</pertinentCareRecordElementCategory>
+				</pertinentInformation2>
+				<sequelTo typeCode="SEQL">
+					<priorPrescriptionReleaseEventRef classCode="INFO" moodCode="RQO">
+						<id root="test3"/>
+					</priorPrescriptionReleaseEventRef>
+				</sequelTo>
+			</DispenseNotification>

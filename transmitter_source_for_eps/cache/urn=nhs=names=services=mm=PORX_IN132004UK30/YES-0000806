@@ -1,0 +1,18 @@
+{
+	"Org": "YES",
+	"SvcIA": "urn:nhs:names:services:mm:PORX_IN132004UK30",
+	"Service": "urn:nhs:names:services:mm",
+	"InteractionId": "PORX_IN132004UK30",
+	"RetryInterval": 0,
+	"PersistDuration": 0,
+	"Retries": -1,
+	"Url": "https://192.168.128.30/reliablemessaging/reliablerequest",
+	"Asid": ["567456789789"],
+	"PartyKey": "YES-0000806",
+	"CPAid": "S20001A000104",
+	"SyncReply": "MSHSignalsOnly",
+	"IsSynchronous": false,
+	"DuplicateElimination": "always",
+	"AckRequested": "always",
+	"SoapActor": "urn:oasis:names:tc:ebxml-msg:actor:toPartyMSH"
+}

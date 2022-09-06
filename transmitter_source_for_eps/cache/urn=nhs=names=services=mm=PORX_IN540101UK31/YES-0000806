@@ -1,0 +1,18 @@
+{
+	"Org": "YES",
+	"SvcIA": "urn:nhs:names:services:mm:PORX_IN540101UK31",
+	"Service": "urn:nhs:names:services:mm",
+	"InteractionId": "PORX_IN540101UK31",
+	"RetryInterval": 0,
+	"PersistDuration": 0,
+	"Retries": -1,
+	"Url": "https://eps-simulator.opentest.hscic.gov.uk/reliablemessaging/reliablerequest",
+	"Asid": ["567456789789"],
+	"PartyKey": "YES-0000806",
+	"CPAid": "S20000A000080",
+	"SyncReply": "MSHSignalsOnly",
+	"IsSynchronous": false,
+	"DuplicateElimination": "always",
+	"AckRequested": "always",
+	"SoapActor": "urn:oasis:names:tc:ebxml-msg:actor:toPartyMSH"
+}

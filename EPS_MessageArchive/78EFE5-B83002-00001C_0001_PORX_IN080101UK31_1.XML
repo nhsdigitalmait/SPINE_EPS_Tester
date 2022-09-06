@@ -1,0 +1,401 @@
+         <DispenseNotification classCode="INFO" moodCode="EVN">
+            <id root="9361DA95-41C9-E8D4-E050-D20AE3A22B74"/>
+            <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="163541000000107">
+               <originalText>Prescription - FocusActOrEvent </originalText>
+            </code>
+            <effectiveTime value="20190925121101"/>
+            <typeId root="2.16.840.1.113883.2.1.3.2.4.18.7" extension="PORX_MT024001UK31"/>
+            <recordTarget typeCode="RCT">
+               <patient classCode="PAT">
+                  <id root="2.16.840.1.113883.2.1.4.1" extension="9446362830"/>
+               </patient>
+            </recordTarget>
+            <primaryInformationRecipient typeCode="PRCP" contextControlCode="ON">
+               <AgentOrg classCode="AGNT">
+                  <agentOrganization classCode="ORG" determinerCode="INSTANCE">
+                     <id root="1.2.826.0.1285.0.1.10" extension="PPA"/>
+                     <name>PPA</name>
+                  </agentOrganization>
+               </AgentOrg>
+            </primaryInformationRecipient>
+            <pertinentInformation1 typeCode="PERT" contextConductionInd="true">
+               <templateId root="2.16.840.1.113883.2.1.3.2.4.18.2" extension="CSAB_RM-NPfITUK10.pertinentInformation"/>
+               <pertinentSupplyHeader classCode="SBADM" moodCode="EVN">
+                  <id root="9361DA95-41CE-E8D4-E050-D20AE3A22B74"/>
+                  <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="225426007"/>
+                  <effectiveTime nullFlavor="NA"/>
+                  <repeatNumber>
+                     <low value="1"/>
+                     <high value="3"/>
+                  </repeatNumber>
+            <author typeCode="AUT">
+               <AgentPerson classCode="AGNT">
+                  <id root="1.2.826.0.1285.0.2.0.67" extension="R1290"/>
+                  <code codeSystem="1.2.826.0.1285.0.2.1.104" code="S0050:G0200:R1290"/>
+                  <telecom use="WP" value="tel:01208812760"/>
+                  <agentPerson classCode="PSN" determinerCode="INSTANCE">
+                     <id root="1.2.826.0.1285.0.2.0.65" extension="85677"/>
+                     <name use="L">WELSH</name>
+                  </agentPerson>
+                  <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                     <id root="1.2.826.0.1285.0.1.10" extension="FH878"/>
+                     <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.94" code="003"/>
+                     <name>BOOTS THE CHEMISTS LTD</name>
+                     <telecom use="WP" value="tel:01208812760"/>
+                     <addr use="WP">
+                        <streetAddressLine>REGENCY ARCADE</streetAddressLine>
+                        <streetAddressLine>23 MOLESWORTH STREET</streetAddressLine>
+                        <streetAddressLine>WADEBRIDGE</streetAddressLine>
+                        <streetAddressLine>CORNWALL</streetAddressLine>
+                        <postalCode>PL27 7DH</postalCode>
+                     </addr>
+                  </representedOrganization>
+               </AgentPerson>
+            </author>
+                  <pertinentInformation1 typeCode="PERT" inversionInd="false" contextConductionInd="true" negationInd="false">
+                     <seperatableInd value="true"/>
+                     <templateId root="2.16.840.1.113883.2.1.3.2.4.18.2" extension="CSAB_RM-NPfITUK10.sourceOf2"/>
+                     <pertinentSuppliedLineItem classCode="SBADM" moodCode="PRMS">
+                        <id root="9361DA95-41D3-E8D4-E050-D20AE3A22B74"/>
+                        <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="225426007"/>
+                        <effectiveTime nullFlavor="NA"/>
+                        <repeatNumber>
+                           <low value="1"/>
+                           <high value="3"/>
+                        </repeatNumber>
+                        <consumable typeCode="CSM" contextControlCode="OP">
+                           <requestedManufacturedProduct classCode="MANU">
+                              <manufacturedRequestedMaterial classCode="MMAT" determinerCode="KIND">
+                                 <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="10060111000001109" displayName="Vinblastine 10mg/10ml solution for injection vials (A A H Pharmaceuticals Ltd)"/>
+                              </manufacturedRequestedMaterial>
+                           </requestedManufacturedProduct>
+                        </consumable>
+                        <component typeCode="COMP">
+                           <seperatableInd value="false"/>
+                           <suppliedLineItemQuantity classCode="SPLY" moodCode="EVN">
+                              <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="373784005"/>
+                              <quantity value="5" unit="1">
+                                 <translation value="5" codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="415818006" displayName="vial"/>
+                              </quantity>
+                              <product typeCode="PRD" contextControlCode="OP">
+                                 <suppliedManufacturedProduct classCode="MANU">
+                                    <manufacturedSuppliedMaterial classCode="MMAT" determinerCode="KIND">
+                                       <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="10060111000001109" displayName="Vinblastine 10mg/10ml solution for injection vials (A A H Pharmaceuticals Ltd)"/>
+                                    </manufacturedSuppliedMaterial>
+                                 </suppliedManufacturedProduct>
+                              </product>
+                              <pertinentInformation2 typeCode="PERT" contextConductionInd="true">
+                                 <seperatableInd value="false"/>
+                                 <pertinentAdditionalInstructions classCode="OBS" moodCode="EVN">
+                                    <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="AI"/>
+                                    <value>As Directed</value>
+                                 </pertinentAdditionalInstructions>
+                              </pertinentInformation2>
+                              <pertinentInformation1 typeCode="PERT" contextConductionInd="true">
+                                 <seperatableInd value="false"/>
+                                 <pertinentSupplyInstructions classCode="OBS" moodCode="EVN">
+                                    <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="SI"/>
+                                    <value/>
+                                 </pertinentSupplyInstructions>
+                              </pertinentInformation1>
+                           </suppliedLineItemQuantity>
+                        </component>
+                        <component1 typeCode="COMP">
+                           <seperatableInd value="false"/>
+                           <supplyRequest classCode="SPLY" moodCode="RQO">
+                              <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="373784005"/>
+                              <quantity value="5" unit="1">
+                                 <translation value="5" codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="415818006" displayName="vial"/>
+                              </quantity>
+                           </supplyRequest>
+                        </component1>
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                           <seperatableInd value="false"/>
+                           <pertinentItemStatus classCode="OBS" moodCode="EVN">
+                              <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="IS"/>
+                              <value codeSystem="2.16.840.1.113883.2.1.3.2.4.17.23" code="0001"/>
+                           </pertinentItemStatus>
+                        </pertinentInformation3>
+                        <inFulfillmentOf typeCode="FLFS" inversionInd="false" negationInd="false">
+                           <seperatableInd value="true"/>
+                           <templateId root="2.16.840.1.113883.2.1.3.2.4.18.2" extension="CSAB_RM-NPfITUK10.sourceOf1"/>
+                           <priorOriginalItemRef classCode="SBADM" moodCode="RQO">
+                              <id root="9361DA95-30CB-E8D4-E050-D20AE3A22B74"/>
+                           </priorOriginalItemRef>
+                        </inFulfillmentOf>
+                     </pertinentSuppliedLineItem>
+                  </pertinentInformation1>
+                  <pertinentInformation1 typeCode="PERT" inversionInd="false" contextConductionInd="true" negationInd="false">
+                     <seperatableInd value="true"/>
+                     <templateId root="2.16.840.1.113883.2.1.3.2.4.18.2" extension="CSAB_RM-NPfITUK10.sourceOf2"/>
+                     <pertinentSuppliedLineItem classCode="SBADM" moodCode="PRMS">
+                        <id root="9361DA95-41D8-E8D4-E050-D20AE3A22B74"/>
+                        <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="225426007"/>
+                        <effectiveTime nullFlavor="NA"/>
+                        <repeatNumber>
+                           <low value="1"/>
+                           <high value="3"/>
+                        </repeatNumber>
+                        <consumable typeCode="CSM" contextControlCode="OP">
+                           <requestedManufacturedProduct classCode="MANU">
+                              <manufacturedRequestedMaterial classCode="MMAT" determinerCode="KIND">
+                                 <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="323885000" displayName="Cefalexin 250mg tablets"/>
+                              </manufacturedRequestedMaterial>
+                           </requestedManufacturedProduct>
+                        </consumable>
+                        <component typeCode="COMP">
+                           <seperatableInd value="false"/>
+                           <suppliedLineItemQuantity classCode="SPLY" moodCode="EVN">
+                              <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="373784005"/>
+                              <quantity value="100" unit="1">
+                                 <translation value="100" codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="415818006" displayName="tablet"/>
+                              </quantity>
+                              <product typeCode="PRD" contextControlCode="OP">
+                                 <suppliedManufacturedProduct classCode="MANU">
+                                    <manufacturedSuppliedMaterial classCode="MMAT" determinerCode="KIND">
+                                       <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="323885000" displayName="Cefalexin 250mg tablets"/>
+                                    </manufacturedSuppliedMaterial>
+                                 </suppliedManufacturedProduct>
+                              </product>
+                              <pertinentInformation2 typeCode="PERT" contextConductionInd="true">
+                                 <seperatableInd value="false"/>
+                                 <pertinentAdditionalInstructions classCode="OBS" moodCode="EVN">
+                                    <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="AI"/>
+                                    <value>As Directed</value>
+                                 </pertinentAdditionalInstructions>
+                              </pertinentInformation2>
+                              <pertinentInformation1 typeCode="PERT" contextConductionInd="true">
+                                 <seperatableInd value="false"/>
+                                 <pertinentSupplyInstructions classCode="OBS" moodCode="EVN">
+                                    <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="SI"/>
+                                    <value/>
+                                 </pertinentSupplyInstructions>
+                              </pertinentInformation1>
+                           </suppliedLineItemQuantity>
+                        </component>
+                        <component1 typeCode="COMP">
+                           <seperatableInd value="false"/>
+                           <supplyRequest classCode="SPLY" moodCode="RQO">
+                              <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="373784005"/>
+                              <quantity value="100" unit="1">
+                                 <translation value="100" codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="415818006" displayName="tablet"/>
+                              </quantity>
+                           </supplyRequest>
+                        </component1>
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                           <seperatableInd value="false"/>
+                           <pertinentItemStatus classCode="OBS" moodCode="EVN">
+                              <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="IS"/>
+                              <value codeSystem="2.16.840.1.113883.2.1.3.2.4.17.23" code="0001"/>
+                           </pertinentItemStatus>
+                        </pertinentInformation3>
+                        <inFulfillmentOf typeCode="FLFS" inversionInd="false" negationInd="false">
+                           <seperatableInd value="true"/>
+                           <templateId root="2.16.840.1.113883.2.1.3.2.4.18.2" extension="CSAB_RM-NPfITUK10.sourceOf1"/>
+                           <priorOriginalItemRef classCode="SBADM" moodCode="RQO">
+                              <id root="9361DA95-30C6-E8D4-E050-D20AE3A22B74"/>
+                           </priorOriginalItemRef>
+                        </inFulfillmentOf>
+                     </pertinentSuppliedLineItem>
+                  </pertinentInformation1>
+                  <pertinentInformation1 typeCode="PERT" inversionInd="false" contextConductionInd="true" negationInd="false">
+                     <seperatableInd value="true"/>
+                     <templateId root="2.16.840.1.113883.2.1.3.2.4.18.2" extension="CSAB_RM-NPfITUK10.sourceOf2"/>
+                     <pertinentSuppliedLineItem classCode="SBADM" moodCode="PRMS">
+                        <id root="9361DA95-41DD-E8D4-E050-D20AE3A22B74"/>
+                        <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="225426007"/>
+                        <effectiveTime nullFlavor="NA"/>
+                        <repeatNumber>
+                           <low value="1"/>
+                           <high value="3"/>
+                        </repeatNumber>
+                        <consumable typeCode="CSM" contextControlCode="OP">
+                           <requestedManufacturedProduct classCode="MANU">
+                              <manufacturedRequestedMaterial classCode="MMAT" determinerCode="KIND">
+                                 <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="321747004" displayName="Amitriptyline 50mg tablets"/>
+                              </manufacturedRequestedMaterial>
+                           </requestedManufacturedProduct>
+                        </consumable>
+                        <component typeCode="COMP">
+                           <seperatableInd value="false"/>
+                           <suppliedLineItemQuantity classCode="SPLY" moodCode="EVN">
+                              <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="373784005"/>
+                              <quantity value="28" unit="1">
+                                 <translation value="28" codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="415818006" displayName="tablet"/>
+                              </quantity>
+                              <product typeCode="PRD" contextControlCode="OP">
+                                 <suppliedManufacturedProduct classCode="MANU">
+                                    <manufacturedSuppliedMaterial classCode="MMAT" determinerCode="KIND">
+                                       <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="321747004" displayName="Amitriptyline 50mg tablets"/>
+                                    </manufacturedSuppliedMaterial>
+                                 </suppliedManufacturedProduct>
+                              </product>
+                              <pertinentInformation2 typeCode="PERT" contextConductionInd="true">
+                                 <seperatableInd value="false"/>
+                                 <pertinentAdditionalInstructions classCode="OBS" moodCode="EVN">
+                                    <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="AI"/>
+                                    <value>As Directed</value>
+                                 </pertinentAdditionalInstructions>
+                              </pertinentInformation2>
+                              <pertinentInformation1 typeCode="PERT" contextConductionInd="true">
+                                 <seperatableInd value="false"/>
+                                 <pertinentSupplyInstructions classCode="OBS" moodCode="EVN">
+                                    <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="SI"/>
+                                    <value/>
+                                 </pertinentSupplyInstructions>
+                              </pertinentInformation1>
+                           </suppliedLineItemQuantity>
+                        </component>
+                        <component1 typeCode="COMP">
+                           <seperatableInd value="false"/>
+                           <supplyRequest classCode="SPLY" moodCode="RQO">
+                              <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="373784005"/>
+                              <quantity value="28" unit="1">
+                                 <translation value="28" codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="415818006" displayName="tablet"/>
+                              </quantity>
+                           </supplyRequest>
+                        </component1>
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                           <seperatableInd value="false"/>
+                           <pertinentItemStatus classCode="OBS" moodCode="EVN">
+                              <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="IS"/>
+                              <value codeSystem="2.16.840.1.113883.2.1.3.2.4.17.23" code="0001"/>
+                           </pertinentItemStatus>
+                        </pertinentInformation3>
+                        <inFulfillmentOf typeCode="FLFS" inversionInd="false" negationInd="false">
+                           <seperatableInd value="true"/>
+                           <templateId root="2.16.840.1.113883.2.1.3.2.4.18.2" extension="CSAB_RM-NPfITUK10.sourceOf1"/>
+                           <priorOriginalItemRef classCode="SBADM" moodCode="RQO">
+                              <id root="9361DA95-30D0-E8D4-E050-D20AE3A22B74"/>
+                           </priorOriginalItemRef>
+                        </inFulfillmentOf>
+                     </pertinentSuppliedLineItem>
+                  </pertinentInformation1>
+                  <pertinentInformation1 typeCode="PERT" inversionInd="false" contextConductionInd="true" negationInd="false">
+                     <seperatableInd value="true"/>
+                     <templateId root="2.16.840.1.113883.2.1.3.2.4.18.2" extension="CSAB_RM-NPfITUK10.sourceOf2"/>
+                     <pertinentSuppliedLineItem classCode="SBADM" moodCode="PRMS">
+                        <id root="9361DA95-41E2-E8D4-E050-D20AE3A22B74"/>
+                        <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="225426007"/>
+                        <effectiveTime nullFlavor="NA"/>
+                        <repeatNumber>
+                           <low value="1"/>
+                           <high value="3"/>
+                        </repeatNumber>
+                        <consumable typeCode="CSM" contextControlCode="OP">
+                           <requestedManufacturedProduct classCode="MANU">
+                              <manufacturedRequestedMaterial classCode="MMAT" determinerCode="KIND">
+                                 <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="323803009" displayName="Cefaclor 375mg modified-release tablets"/>
+                              </manufacturedRequestedMaterial>
+                           </requestedManufacturedProduct>
+                        </consumable>
+                        <component typeCode="COMP">
+                           <seperatableInd value="false"/>
+                           <suppliedLineItemQuantity classCode="SPLY" moodCode="EVN">
+                              <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="373784005"/>
+                              <quantity value="14" unit="1">
+                                 <translation value="14" codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="415818006" displayName="tablet"/>
+                              </quantity>
+                              <product typeCode="PRD" contextControlCode="OP">
+                                 <suppliedManufacturedProduct classCode="MANU">
+                                    <manufacturedSuppliedMaterial classCode="MMAT" determinerCode="KIND">
+                                       <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="323803009" displayName="Cefaclor 375mg modified-release tablets"/>
+                                    </manufacturedSuppliedMaterial>
+                                 </suppliedManufacturedProduct>
+                              </product>
+                              <pertinentInformation2 typeCode="PERT" contextConductionInd="true">
+                                 <seperatableInd value="false"/>
+                                 <pertinentAdditionalInstructions classCode="OBS" moodCode="EVN">
+                                    <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="AI"/>
+                                    <value>As Directed</value>
+                                 </pertinentAdditionalInstructions>
+                              </pertinentInformation2>
+                              <pertinentInformation1 typeCode="PERT" contextConductionInd="true">
+                                 <seperatableInd value="false"/>
+                                 <pertinentSupplyInstructions classCode="OBS" moodCode="EVN">
+                                    <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="SI"/>
+                                    <value/>
+                                 </pertinentSupplyInstructions>
+                              </pertinentInformation1>
+                           </suppliedLineItemQuantity>
+                        </component>
+                        <component1 typeCode="COMP">
+                           <seperatableInd value="false"/>
+                           <supplyRequest classCode="SPLY" moodCode="RQO">
+                              <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="373784005"/>
+                              <quantity value="14" unit="1">
+                                 <translation value="14" codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="415818006" displayName="tablet"/>
+                              </quantity>
+                           </supplyRequest>
+                        </component1>
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                           <seperatableInd value="false"/>
+                           <pertinentItemStatus classCode="OBS" moodCode="EVN">
+                              <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="IS"/>
+                              <value codeSystem="2.16.840.1.113883.2.1.3.2.4.17.23" code="0001"/>
+                           </pertinentItemStatus>
+                        </pertinentInformation3>
+                        <inFulfillmentOf typeCode="FLFS" inversionInd="false" negationInd="false">
+                           <seperatableInd value="true"/>
+                           <templateId root="2.16.840.1.113883.2.1.3.2.4.18.2" extension="CSAB_RM-NPfITUK10.sourceOf1"/>
+                           <priorOriginalItemRef classCode="SBADM" moodCode="RQO">
+                              <id root="9361DA95-30C1-E8D4-E050-D20AE3A22B74"/>
+                           </priorOriginalItemRef>
+                        </inFulfillmentOf>
+                     </pertinentSuppliedLineItem>
+                  </pertinentInformation1>
+                  <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                     <seperatableInd value="false"/>
+                     <pertinentPrescriptionStatus classCode="OBS" moodCode="EVN">
+                        <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="PS"/>
+                        <value codeSystem="2.16.840.1.113883.2.1.3.2.4.16.35" code="0006"/>
+                     </pertinentPrescriptionStatus>
+                  </pertinentInformation3>
+                  <pertinentInformation4 typeCode="PERT" contextConductionInd="true">
+                     <seperatableInd value="false"/>
+                     <pertinentPrescriptionID classCode="OBS" moodCode="EVN">
+                        <code codeSystem="2.16.840.1.113883.2.1.3.2.4.17.30" code="PID"/>
+                        <value root="2.16.840.1.113883.2.1.3.2.4.18.8" extension="78EFE5-B83002-00001C"/>
+                     </pertinentPrescriptionID>
+                  </pertinentInformation4>
+                  <inFulfillmentOf typeCode="FLFS" inversionInd="false" negationInd="false">
+                     <seperatableInd value="true"/>
+                     <templateId root="2.16.840.1.113883.2.1.3.2.4.18.2" extension="CSAB_RM-NPfITUK10.sourceOf1"/>
+                     <priorOriginalPrescriptionRef classCode="SBADM" moodCode="RQO">
+                        <id root="9361DA95-2116-E8D4-E050-D20AE3A22B74"/>
+                     </priorOriginalPrescriptionRef>
+                  </inFulfillmentOf>
+               </pertinentSupplyHeader>
+            </pertinentInformation1>
+            <pertinentInformation2 typeCode="PERT">
+               <templateId root="2.16.840.1.113883.2.1.3.2.4.18.2" extension="CSAB_RM-NPfITUK10.pertinentInformation1"/>
+               <pertinentCareRecordElementCategory classCode="CATEGORY" moodCode="EVN">
+                  <code codeSystem="2.16.840.1.113883.2.1.3.2.4.15" code="185361000000102"/>
+                  <component typeCode="COMP">
+                     <actRef classCode="SBADM" moodCode="RQO">
+                        <id root="9361DA95-41D3-E8D4-E050-D20AE3A22B74"/>
+                     </actRef>
+                  </component>
+                  <component typeCode="COMP">
+                     <actRef classCode="SBADM" moodCode="RQO">
+                        <id root="9361DA95-41D8-E8D4-E050-D20AE3A22B74"/>
+                     </actRef>
+                  </component>
+                  <component typeCode="COMP">
+                     <actRef classCode="SBADM" moodCode="RQO">
+                        <id root="9361DA95-41DD-E8D4-E050-D20AE3A22B74"/>
+                     </actRef>
+                  </component>
+                  <component typeCode="COMP">
+                     <actRef classCode="SBADM" moodCode="RQO">
+                        <id root="9361DA95-41E2-E8D4-E050-D20AE3A22B74"/>
+                     </actRef>
+                  </component>
+               </pertinentCareRecordElementCategory>
+            </pertinentInformation2>
+            <sequelTo typeCode="SEQL">
+               <priorPrescriptionReleaseEventRef classCode="INFO" moodCode="RQO">
+                  <id root="11111111-1111-1111-1111-111111111111"/>
+               </priorPrescriptionReleaseEventRef>
+            </sequelTo>
+         </DispenseNotification>

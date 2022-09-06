@@ -1,0 +1,11 @@
+# Test value for ITK trunk (NB this is a *tab* separated file!)
+#
+urn:nhs:names:services:itk:COPC_IN000001GB01	https://msg.int.spine2.ncrs.nhs.uk/reliablemessaging/intermediary
+urn:oasis:names:tc:ebxml-msg:service:Acknowledgment	https://msg.int.spine2.ncrs.nhs.uk/reliablemessaging/intermediary
+
+# 4001 direct to spine MTH
+urn:nhs:names:services:pdsquery:QUPA_IN000008UK05	https://localhost:443/syncservice-pds/pds
+urn:nhs:names:services:pdsquery:QUPA_IN000008UK02	https://localhost:443/syncservice-pds/pds
+urn:nhs:names:services:pdsquery:QUPA_IN000006UK02	https://localhost:4001/reliablemessaging/queryrequest
+urn:nhs:names:services:pdsquery:QUPA_IN000005UK01	https://localhost:4001/syncservice-pds/pds
+

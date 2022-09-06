@@ -1,0 +1,9 @@
+/validator_reports/**
+/transmitter_sent_messages/**
+/transmitter_sent_messages_localhost_eps/**
+/simulator_saved_messages/**
+/messages_for_validation/**
+/logs/**
+/all_evidence/**
+/certs/**
+/Test/logs/**

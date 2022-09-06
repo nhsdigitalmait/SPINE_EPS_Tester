@@ -1,0 +1,6 @@
+# Test value for ITK trunk
+#
+urn:nhs:names:services:itk:COPC_IN000001GB01	http://localhost:4848/reliablemessaging/intermediary
+urn:oasis:names:tc:ebxml-msg:service:Acknowledgment	http://localhost:4848/reliablemessaging/intermediary
+# for SpineTools Testing
+urn:nhs:names:services:pdsquery:PRPA_IN000203UK03	https://localhost:4430/syncservice-pds/pds

@@ -1,0 +1,6 @@
+# Test value for ITK trunk (NB this is a *tab* separated file!)
+# ip address for DEV2 via OpenVPN (OpenTest)
+#
+
+urn:nhs:names:services:mm:PORX_IN132004UK3	http://10.210.164.81:4300/reliablemessaging/reliablerequest
+

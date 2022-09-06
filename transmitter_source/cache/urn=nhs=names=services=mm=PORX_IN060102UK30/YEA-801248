@@ -1,0 +1,18 @@
+{
+	"Org": "YEA",
+	"SvcIA": "urn:nhs:names:services:mm:PORX_IN060102UK30",
+	"Service": "urn:nhs:names:services:mm",
+	"InteractionId": "PORX_IN060102UK30",
+	"RetryInterval": 0,
+	"PersistDuration": 0,
+	"Retries": -1,
+	"Url": "http://127.0.0.1:4001/reliablemessaging/reliablerequest",
+	"Asid": ["SIAB-001"],
+	"PartyKey": "YEA-801248",
+	"CPAid": "S2001919A2011847",
+	"SyncReply": "MSHSignalsOnly",
+	"IsSynchronous": false,
+	"DuplicateElimination": "always",
+	"AckRequested": "always",
+	"SoapActor": ""
+}
